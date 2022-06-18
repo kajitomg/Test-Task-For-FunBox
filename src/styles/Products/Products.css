@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Marck+Script&display=swap');
+
+.products{
+	font-family: "Trebuchet MS";
+	z-index: 5;
+	color: aliceblue;
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	justify-content: center;
+	flex: 1 0 100%;
+}
+.products__title{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 100;
+	font-family: 'Exo 2', sans-serif;
+	margin: 30px 0;
+}
+.products__title{
+
+}
+.title{
+
+}
+.products__feeds{
+	width: 100%;
+}
+.feeds{
+
+}
+.feeds__row{
+   display: flex;
+	justify-content:space-between;
+}
+@media (max-width:750px) {
+	.feeds__row{
+		flex-direction: column;
+	}
+	.products{
+		font-family: "Trebuchet MS";
+		z-index: 5;
+		color: aliceblue;
+		display: flex;
+		flex-direction: column;
+		width: auto;
+		justify-content:unset;
+		flex: 1 0 100%;
+	}
+}
