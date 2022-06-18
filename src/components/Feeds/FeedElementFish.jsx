@@ -38,9 +38,7 @@ const FeedElementFish = () => {
 					onClick={() => { setElementSelected(!elementSelected); setElementHoverEnabled(false); }}>
 					<div className="package__text text">
 						<span className="package__adjective">Сказочное заморское яство</span>
-						<h2 className="package__title">
-							Нямушка
-							<span className="package__taste">{packageVars.taste}</span>
+						<h2 className="package__title">Нямушка <span className="package__taste">{packageVars.taste}</span>
 						</h2>
 						<div className="package__size">
 							<span className="package__quantity">{packageVars.quantity}</span>
