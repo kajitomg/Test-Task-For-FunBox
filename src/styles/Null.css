@@ -78,7 +78,7 @@ body #root{
 	height: 100%;
 	overflow: auto;
 }
-@media (max-width:1120px) {
+@media (min-width:1120px) {
 	body #root{
 		overflow: hidden;
 	}
