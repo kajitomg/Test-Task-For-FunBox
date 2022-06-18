@@ -41,8 +41,7 @@ const FeedElementFish = () => {
 						<h2 className="package__title">Нямушка <span className="package__taste">{packageVars.taste}</span>
 						</h2>
 						<div className="package__size">
-							<span className="package__quantity">{packageVars.quantity}</span>
-							порций
+							<span className="package__quantity">{packageVars.quantity}</span> порций
 							<span className="package__bonus">{packageVars.bonus}</span>
 						</div>
 					</div>
