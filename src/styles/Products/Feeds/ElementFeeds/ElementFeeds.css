@@ -141,6 +141,7 @@
 	font-size: 14px;
 }
 .package__bonus{
+	max-width:160px;
 	display: block;
 }
 .package__image{
